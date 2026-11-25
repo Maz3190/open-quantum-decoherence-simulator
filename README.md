@@ -27,13 +27,13 @@ This repository translates foundational questions in quantum measurement theory 
 
 ### 3. Environmental Decoherence & Purity Loss
 * Script: `decoherence_purity.py`
-* Description: Evolves an initially pure equal superposition state ($\mathrm{Tr}(\rho^2) = 1$) under weak ($\gamma = 0.2$) and strong ($\gamma = 0.8$) environmental bath coupling, illustrating the decay of off-diagonal interference terms and the growth of linear entropy ($S_L = 1 - \mathrm{Tr}(\rho^2)$) during the quantum-to-classical transition.
+* Description: Evolves an initially pure equal superposition state ($\mathrm{Tr}(\rho^2) = 1$) under weak ( $\gamma = 0.2 $ ) and strong ($\gamma = 0.8$) environmental bath coupling, illustrating the decay of off-diagonal interference terms and the growth of linear entropy ( $ S_L = 1 - \mathrm{Tr}(\rho^2) $ ) during the quantum-to-classical transition.
 ![Decoherence and Purity Decay](decoherence_purity_decay.png)
 
 ## Key Scientific Takeaways
 * Unitary Spatial Branching: Alternating kinetic ($\hat{T}$) and potential ($\hat{V}$) evolution in Fourier and position space preserves unitarity, showing how a localized wavepacket bifurcates into orthogonal spatial branches upon encountering an energy barrier.
-* Resolution of Naive Branch Counting: For asymmetric superpositions ($|\alpha|^2 \neq |\beta|^2$), unweighted counting of the $2^M$ measurement branches peaks at $0.50$, whereas Born-weighted measure and stochastic Monte Carlo sampling converge to the exact Born probability ($|\alpha|^2 = 0.75$).
-* Suppression of Quantum Interference & Purity Loss: Coupling a coherent superposition to environmental degrees of freedom causes exponential decay of off-diagonal density-matrix elements ($|\rho_{01}(t)| = |\rho_{01}(0)|e^{-\gamma t}$), driving state purity from $\mathrm{Tr}(\rho^2) = 1$ (pure quantum state) to $\mathrm{Tr}(\rho^2) = 0.5$ (maximally mixed classical ensemble).
+* Resolution of Naive Branch Counting: For asymmetric superpositions $|\alpha|^2 \neq |\beta|^2$, unweighted counting of the $2^M$ measurement branches peaks at $0.50$, whereas Born-weighted measure and stochastic Monte Carlo sampling converge to the exact Born probability ($|\alpha|^2 = 0.75$).
+* Suppression of Quantum Interference & Purity Loss: Coupling a coherent superposition to environmental degrees of freedom causes exponential decay of off-diagonal density-matrix elements $|\rho_{01}(t)| = |\rho_{01}(0)|e^{-\gamma t}$, driving state purity from $\mathrm{Tr}(\rho^2) = 1$ (pure quantum state) to $\mathrm{Tr}(\rho^2) = 0.5$ (maximally mixed classical ensemble).
 
 ## Getting Started & Execution
 To replicate these simulations locally, navigate to the project directory and run the scripts:

@@ -27,7 +27,7 @@ This repository translates foundational questions in quantum measurement theory 
 
 ### 3. Environmental Decoherence & Purity Loss
 * Script: `decoherence_purity.py`
-* Description: Evolves an initially pure equal superposition state ( $\mathrm{Tr}(\rho^2) = 1$ ) under weak ( $\gamma = 0.2 $ ) and strong ( $\gamma = 0.8$ ) environmental bath coupling, illustrating the decay of off-diagonal interference terms and the growth of linear entropy ( $S_L = 1 - \mathrm{Tr}(\rho^2)$ ) during the quantum-to-classical transition.
+* Description: Evolves an initially pure equal superposition state ( $\mathrm{Tr}(\rho^2) = 1$ ) under weak ( $\gamma = 0.2$ ) and strong ( $\gamma = 0.8$ ) environmental bath coupling, illustrating the decay of off-diagonal interference terms and the growth of linear entropy ( $S_L = 1 - \mathrm{Tr}(\rho^2)$ ) during the quantum-to-classical transition.
 ![Decoherence and Purity Decay](decoherence_purity_decay.png)
 
 ## Key Scientific Takeaways
